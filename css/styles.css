@@ -41,25 +41,32 @@ section {
 
 .intro {
 	position: relative;
-	z-index: 0; /* Ensure intro section is below #features */
 	text-align: center;
+	height: 100vh; /* Ensures intro section is the full viewport height */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-image: url('assets/images/cover-image.jpg'); /* Set the cover image as background */
+	background-size: cover; /* Ensure the image covers the entire element */
+	background-position: center; /* Center the image */
+	color: white; /* Ensure text color is visible */
 }
 
 .cover-image {
-	width: 100%;
-	height: 100vh; /* Sets height to full viewport height */
-	object-fit: cover; /* Ensures the image covers the entire element */
+	display: none; /* Hide the cover image element if it's only used as a background */
 }
 
 .one-liner {
 	font-size: 1.2rem;
-	color: #666;
+	color: #fff;  /* Set text color to white for visibility */
+	z-index: 1;  /* Ensure it's above the background */
 }
 
 #features {
 	position: relative; /* or absolute */
-	z-index: 1; /* Ensure it's above the cover image */
-	background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white background */
+	z-index: 2; /* Ensure it's above the intro page */
+	background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
 	padding: 2rem;
 }
 
