@@ -47,10 +47,11 @@ section {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background-image: url('assets/images/cover-image.jpg'); /* Set the cover image as background */
+	background-image: url('assets/images/cover-image.png'); /* Set the cover image as background */
 	background-size: cover; /* Ensure the image covers the entire element */
 	background-position: center; /* Center the image */
 	color: white; /* Ensure text color is visible */
+	border: 2px solid red; /* Debug border to see if the section is being rendered */
 }
 
 .cover-image {
