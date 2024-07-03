@@ -45,8 +45,8 @@ section {
 
 .cover-image {
 	width: 100%;
-	max-height: 400px;
-	object-fit: cover;
+	height: 100vh; /* Sets height to full viewport height */
+	object-fit: cover; /* Ensures the image covers the entire element */
 }
 
 .one-liner {
