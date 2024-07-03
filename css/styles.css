@@ -67,6 +67,13 @@ section {
 	height: auto;
 }
 
+.features .feature img[src*=".gif"] {
+	/* Apply specific styles for GIFs */
+	border: 2px solid #ff9900; /* Example: add a border */
+	border-radius: 10px; /* Example: round the corners */
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Example: add a shadow */
+}
+
 .about {
 	text-align: center;
 }
