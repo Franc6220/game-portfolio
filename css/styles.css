@@ -40,6 +40,7 @@ section {
 }
 
 .intro {
+	position: relative;
 	text-align: center;
 }
 
