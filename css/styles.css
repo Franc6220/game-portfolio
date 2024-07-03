@@ -52,7 +52,6 @@ section {
 	background-size: cover; /* Ensure the image covers the entire element */
 	background-position: center; /* Center the image */
 	color: white; /* Ensure text color is visible */
-	border: 2px solid red; /* Debug border to see if the section is being rendered */
 }
 
 .one-liner {
