@@ -53,6 +53,7 @@ section {
 	background-position: center; /* Center the image */
 	color: white; /* Ensure text color is visible */
 	border: none; /* Remove the debug border */
+	background-color: red; /* Temporary debug color */
 }
 
 .one-liner {
