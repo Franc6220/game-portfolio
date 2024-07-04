@@ -63,7 +63,10 @@ section {
 #features {
 	position: relative; /* or absolute */
 	z-index: 1; /* Ensure it's above the intro page */
-	background-color: rgba(255, 255, 255, 0.8);
+	background-image: url('../assets/images/cover-image.png'); /* Use the same cover image as background */
+	background-size: cover; /* Ensure the image covers the entire element */
+	background-repeat: no-repeat; /* Ensure the image doesn't repeat */
+	background-position: center; /* Center the image */
 	padding: 2rem;
 }
 
@@ -72,6 +75,9 @@ section {
 	flex-direction: column;
 	align-items: center;
 	margin-bottom: 1rem;
+	background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+	padding: 1rem;
+	border-radius: 10px; /* Optional: add some rounding to the feature boxes */
 }
 
 .features .feature img {
