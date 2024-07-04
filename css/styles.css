@@ -50,9 +50,9 @@ section {
 	align-items: center;
 	background-image: url('../assets/images/cover-image.png'); /* Set the cover image as background */
 	background-size: cover; /* Ensure the image covers the entire element */
+	background-repeat: no-repeat; /* Ensure the image doesn't repeat */
 	background-position: center; /* Center the image */
 	color: white; /* Ensure text color is visible */
-	border: 2px solid red; /* debug border */
 }
 
 .one-liner {
